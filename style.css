@@ -1,10 +1,10 @@
-.flex-container {
+.grid-container {
     display: grid;
-    height: 300px;
-    background: cyan;
-    margin: 10%;
+    height: 400px;
+    background: #D4E9E2;
+    margin: 5%;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1.5fr));
     justify-items: center;
     align-items: center;
 }
@@ -14,4 +14,17 @@ img {
     max-height: 100%;
     justify-self: stretch;
     align-self: stretch;
+}
+
+#video {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+h4 {
+    font-weight: 300;
+    color: white;
 }
